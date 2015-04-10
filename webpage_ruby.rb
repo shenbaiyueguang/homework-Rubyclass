@@ -25,24 +25,22 @@ t1=Thread.new{generateweb()}
 t2=Thread.new{generateweb()}
 t3=Thread.new{generateweb()}
 t4=Thread.new{generateweb()}
+t5=Thread.new{generateweb()}
+t6=Thread.new{generateweb()}
+t7=Thread.new{generateweb()}
+t8=Thread.new{generateweb()}
+t9=Thread.new{generateweb()}
+t10=Thread.new{generateweb()}
 t1.join
 t2.join
 t3.join
 t4.join
-
-t1=Thread.new{generateweb()}
-t2=Thread.new{generateweb()}
-t3=Thread.new{generateweb()}
-t4=Thread.new{generateweb()}
-t1.join
-t2.join
-t3.join
-t4.join
-
-t1=Thread.new{generateweb()}
-t2=Thread.new{generateweb()}
-t1.join
-t2.join
+t5.join
+t6.join
+t7.join
+t8.join
+t9.join
+t10.join
 
 
 
